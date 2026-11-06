@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HABLOCLASS | Stage 2: FANBOYS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body data-stage="2">
+
+<header class="site-header">
+    <div class="container">
+        <h1>HABLOCLASS</h1>
+        <p>Speak, Connect and Grow.</p>
+    </div>
+</header>
+
+<main class="container">
+    <section class="hero">
+        <p class="eyebrow">ADVANCED ENGLISH COURSE</p>
+        <h2>Stage 2: FANBOYS</h2>
+        <p>Coordinating conjunctions and complex sentence construction.</p>
+        <div class="progress-track"><div id="progressBar"></div></div>
+        <p id="progressText" class="small-text">Stage 2 of 4</p>
+    </section>
+
+    <nav class="stage-nav">
+        <a href="index.html">Stage 1</a>
+        <a class="active" href="stage2.html">Stage 2</a>
+        <a href="stage3.html" data-stage-link="3">Stage 3</a>
+        <a href="stage4.html" data-stage-link="4">Stage 4</a>
+    </nav>
+
+    <section class="card lesson">
+        <span class="tag">ACTIVITY 1 · GRAMMAR</span>
+        <h2>What are FANBOYS?</h2>
+        <p>
+            FANBOYS is a memory aid for seven coordinating conjunctions.
+            They connect words, phrases or independent clauses of equal
+            grammatical importance.
+        </p>
+
+        <div class="fanboys-grid">
+            <div><strong>F — For</strong><p>Shows a reason or explanation.</p><p class="example">I stayed inside, for it was raining.</p></div>
+            <div><strong>A — And</strong><p>Adds information.</p><p class="example">She reads and writes every day.</p></div>
+            <div><strong>N — Nor</strong><p>Adds a negative idea.</p><p class="example">He did not call, nor did he send a message.</p></div>
+            <div><strong>B — But</strong><p>Shows contrast.</p><p class="example">The task was difficult, but we completed it.</p></div>
+            <div><strong>O — Or</strong><p>Shows a choice or alternative.</p><p class="example">You can revise now, or you can revise later.</p></div>
+            <div><strong>Y — Yet</strong><p>Shows an unexpected contrast.</p><p class="example">She was tired, yet she continued working.</p></div>
+            <div><strong>S — So</strong><p>Shows a result or consequence.</p><p class="example">It was raining, so we stayed indoors.</p></div>
+        </div>
+
+        <h3>Important: Independent clauses</h3>
+        <p>
+            An independent clause has a subject and a verb and expresses
+            a complete thought.
+        </p>
+        <p class="example">
+            The students were tired. They continued studying.
+        </p>
+        <p>
+            Joined with a coordinating conjunction:
+        </p>
+        <p class="example">
+            The students were tired, yet they continued studying.
+        </p>
+
+        <h3>Punctuation rule</h3>
+        <p>
+            When a coordinating conjunction joins two independent
+            clauses, place a comma before the conjunction.
+        </p>
+        <p class="example">
+            I wanted to attend the meeting, but I was ill.
+        </p>
+        <p>
+            When joining only two words or phrases, a comma is
+            generally not needed.
+        </p>
+        <p class="example">
+            She bought notebooks and pens.
+        </p>
+
+        <h3>Pay special attention to YET</h3>
+        <p>
+            "Yet" can be a coordinating conjunction showing contrast.
+            It can also be an adverb meaning "until now" or "so far."
+        </p>
+        <ul>
+            <li><strong>Conjunction:</strong> He was inexperienced, yet he succeeded.</li>
+            <li><strong>Adverb:</strong> He has not arrived yet.</li>
+            <li><strong>Adverb in a question:</strong> Have you finished yet?</li>
+        </ul>
+        <p>
+            Do not confuse these grammatical roles. In the first
+            example, "yet" joins contrasting independent clauses.
+            In the other examples, it modifies the verb phrase.
+        </p>
+
+        <h3>Do not confuse FOR</h3>
+        <p>
+            As a FANBOYS conjunction, "for" introduces a reason:
+        </p>
+        <p class="example">She went home, for she was exhausted.</p>
+        <p>
+            As a preposition, "for" can express duration:
+        </p>
+        <p class="example">She studied for three hours.</p>
+        <p>
+            These are different grammatical uses. Stage 3 explores
+            time expressions in more detail.
+        </p>
+    </section>
+
+    <section class="card">
+        <span class="tag">ACTIVITY 2 · PRACTICE</span>
+        <h2>Build stronger sentences</h2>
+        <p>Compare the meaning of each sentence:</p>
+        <div class="example">
+            <p>1. He was tired, <strong>but</strong> he stopped working.</p>
+            <p>2. He was tired, <strong>yet</strong> he continued working.</p>
+            <p>3. He was tired, <strong>so</strong> he went to bed.</p>
+        </div>
+        <p>
+            The conjunction changes the relationship between the ideas.
+            Choose it according to the meaning you intend to communicate.
+        </p>
+    </section>
+
+    <section class="card">
+        <span class="tag">ACTIVITY 3 · ASSESSMENT</span>
+        <h2>Stage 2 assessment</h2>
+        <p>There are 10 questions. You need at least 75% to unlock Stage 3.</p>
+        <div id="quizQuestions"></div>
+        <button class="button" id="submitQuiz">Submit answers</button>
+        <div id="quizResult" aria-live="polite"></div>
+    </section>
+
+    <section class="card">
+        <h2>Your course progress</h2>
+        <p id="completionStatus">Stage 2 is in progress.</p>
+        <a class="button locked-link" id="nextStage" href="stage3.html">
+            Continue to Stage 3
+        </a>
+    </section>
+</main>
+
+<footer>
+    <strong>HABLOCLASS</strong>
+    <p>Learning together. Growing together.</p>
+</footer>
+
+</body>
+</html>
